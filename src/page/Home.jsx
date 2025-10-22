@@ -1,5 +1,7 @@
 import React from "react"
-import { link } from "react-router-dom"
+import { link,useLocation} from "react-router-dom"
+import NavLinks from "../components/layout/NavLinks"
+import { NavLink,isPathActive } from "react-router-dom" 
 
 export default function Home(){
     const features =[

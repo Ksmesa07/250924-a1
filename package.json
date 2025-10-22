@@ -11,12 +11,14 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.15",
+    "@vitejs/plugin-react-swc": "^4.1.0",
     "daisyui": "^5.3.7",
     "esbuild": "^0.25.11",
     "node": "^22.21.0",
     "node.js": "^0.0.1-security",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
+    "react-router-dom": "^7.9.4",
     "tailwindcss": "^4.1.15"
   },
   "devDependencies": {
