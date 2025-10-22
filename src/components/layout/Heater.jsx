@@ -1,16 +1,15 @@
 import React,{useState} from "react"
 import { Link,useLocation} from "react-router-dom"
 import NavLinks from "./NavLinks"
-import { NavLink,isPathActive } from "react-router-dom" 
-import {HiBar3,HiSun,HiMoon} from "react-icons/hi2";
-import {Hisave} from "react-icons/hi";
+import { NAV_LINKS,isPathActive } from "../../utils/navigation";
+import {HiBars3,HiSun,HiMoon} from "react-icons/hi";
 import useTheme from "../../hooks/useTheme";
 import UserMenu from "./UserMenu";
 
 export default function Heater(){
     const [isMenuOpen,setIsMenuOpen]=useState(false);
     const location=useLocation();
-    const {theme,setTheme,toggleTheme} =useTheme("light");
+    const {theme,toggleTheme} =useTheme("light");
     const isNavItemActive=(path)=>isPathActive(path,location.pathname);
     return(
         <header className="navbar bg-base-100 shadow-lg">
