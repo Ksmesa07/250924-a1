@@ -6,6 +6,10 @@ import { NavLink,isPathActive } from "react-router-dom"
 export default function Home(){
     const features =[
         {icon: "⚡", label: "Fast Build Times"},
+        {icon: "⚡", label: "Fast Build Times"},
+        {icon: "⚡", label: "Fast Build Times"}
     ]
-    return <h1>Home</h1>
+    return (
+        <h1>Home Page</h1>
+    )
 }

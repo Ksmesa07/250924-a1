@@ -9,7 +9,7 @@ export default function App() {
       <Heater/>
       <main className="flex-1 container mx auto px-4 py-8">
         <Outlet/>
-      </main>
+      </main>  
       <Footer/>
     </div>
   )

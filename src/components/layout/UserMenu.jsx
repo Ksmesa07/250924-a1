@@ -1,4 +1,3 @@
-import label from "daisyui/components/label";
 import {HiUser} from "react-icons/hi2"
 import {Link} from "react-router-dom";
 
